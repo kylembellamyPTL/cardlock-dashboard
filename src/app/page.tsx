@@ -78,6 +78,9 @@ export default function StationsPage() {
                 </th>
               </tr>
             </thead>
+            <a href="/stations" style={{ marginTop: '1rem', color: '#2563eb' }}>
+  View Stations
+</a>
             <tbody>
               {rows.map((r) => (
                 <tr key={r.station_id}>
